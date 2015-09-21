@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var donkeyImage: UIImageView!
+    @IBOutlet weak var elephantImage: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +22,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func hideRed(sender: AnyObject) {
+        elephantImage.hidden = true
+    }
+    @IBAction func HideBlue(sender: AnyObject) {
+        donkeyImage.hidden = true
+    }
 
+    //Yay!!!
 }
 
