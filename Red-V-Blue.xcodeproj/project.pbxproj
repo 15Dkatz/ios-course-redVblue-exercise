@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F641A3B71BAFB65900AA196A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F641A3B61BAFB65900AA196A /* AppDelegate.swift */; };
+		F641A3B91BAFB65900AA196A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F641A3B81BAFB65900AA196A /* ViewController.swift */; };
+		F641A3BC1BAFB65900AA196A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F641A3BA1BAFB65900AA196A /* Main.storyboard */; };
+		F641A3BE1BAFB65900AA196A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F641A3BD1BAFB65900AA196A /* Assets.xcassets */; };
+		F641A3C11BAFB65900AA196A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F641A3BF1BAFB65900AA196A /* LaunchScreen.storyboard */; };
+		F641A3CC1BAFB65900AA196A /* Red_V_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F641A3CB1BAFB65900AA196A /* Red_V_BlueTests.swift */; };
+		F641A3D71BAFB65900AA196A /* Red_V_BlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F641A3D61BAFB65900AA196A /* Red_V_BlueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F641A3C81BAFB65900AA196A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F641A3AB1BAFB65900AA196A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F641A3B21BAFB65900AA196A;
+			remoteInfo = "Red-V-Blue";
+		};
+		F641A3D31BAFB65900AA196A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F641A3AB1BAFB65900AA196A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F641A3B21BAFB65900AA196A;
+			remoteInfo = "Red-V-Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F641A3B31BAFB65900AA196A /* Red-V-Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red-V-Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F641A3B61BAFB65900AA196A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F641A3B81BAFB65900AA196A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F641A3BB1BAFB65900AA196A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F641A3BD1BAFB65900AA196A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F641A3C01BAFB65900AA196A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F641A3C21BAFB65900AA196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F641A3C71BAFB65900AA196A /* Red-V-BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red-V-BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F641A3CB1BAFB65900AA196A /* Red_V_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_V_BlueTests.swift; sourceTree = "<group>"; };
+		F641A3CD1BAFB65900AA196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F641A3D21BAFB65900AA196A /* Red-V-BlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red-V-BlueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F641A3D61BAFB65900AA196A /* Red_V_BlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_V_BlueUITests.swift; sourceTree = "<group>"; };
+		F641A3D81BAFB65900AA196A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F641A3B01BAFB65900AA196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3C41BAFB65900AA196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3CF1BAFB65900AA196A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F641A3AA1BAFB65900AA196A = {
+			isa = PBXGroup;
+			children = (
+				F641A3B51BAFB65900AA196A /* Red-V-Blue */,
+				F641A3CA1BAFB65900AA196A /* Red-V-BlueTests */,
+				F641A3D51BAFB65900AA196A /* Red-V-BlueUITests */,
+				F641A3B41BAFB65900AA196A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F641A3B41BAFB65900AA196A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F641A3B31BAFB65900AA196A /* Red-V-Blue.app */,
+				F641A3C71BAFB65900AA196A /* Red-V-BlueTests.xctest */,
+				F641A3D21BAFB65900AA196A /* Red-V-BlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F641A3B51BAFB65900AA196A /* Red-V-Blue */ = {
+			isa = PBXGroup;
+			children = (
+				F641A3B61BAFB65900AA196A /* AppDelegate.swift */,
+				F641A3B81BAFB65900AA196A /* ViewController.swift */,
+				F641A3BA1BAFB65900AA196A /* Main.storyboard */,
+				F641A3BD1BAFB65900AA196A /* Assets.xcassets */,
+				F641A3BF1BAFB65900AA196A /* LaunchScreen.storyboard */,
+				F641A3C21BAFB65900AA196A /* Info.plist */,
+			);
+			path = "Red-V-Blue";
+			sourceTree = "<group>";
+		};
+		F641A3CA1BAFB65900AA196A /* Red-V-BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				F641A3CB1BAFB65900AA196A /* Red_V_BlueTests.swift */,
+				F641A3CD1BAFB65900AA196A /* Info.plist */,
+			);
+			path = "Red-V-BlueTests";
+			sourceTree = "<group>";
+		};
+		F641A3D51BAFB65900AA196A /* Red-V-BlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F641A3D61BAFB65900AA196A /* Red_V_BlueUITests.swift */,
+				F641A3D81BAFB65900AA196A /* Info.plist */,
+			);
+			path = "Red-V-BlueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F641A3B21BAFB65900AA196A /* Red-V-Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F641A3DB1BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-Blue" */;
+			buildPhases = (
+				F641A3AF1BAFB65900AA196A /* Sources */,
+				F641A3B01BAFB65900AA196A /* Frameworks */,
+				F641A3B11BAFB65900AA196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red-V-Blue";
+			productName = "Red-V-Blue";
+			productReference = F641A3B31BAFB65900AA196A /* Red-V-Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F641A3C61BAFB65900AA196A /* Red-V-BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F641A3DE1BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-BlueTests" */;
+			buildPhases = (
+				F641A3C31BAFB65900AA196A /* Sources */,
+				F641A3C41BAFB65900AA196A /* Frameworks */,
+				F641A3C51BAFB65900AA196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F641A3C91BAFB65900AA196A /* PBXTargetDependency */,
+			);
+			name = "Red-V-BlueTests";
+			productName = "Red-V-BlueTests";
+			productReference = F641A3C71BAFB65900AA196A /* Red-V-BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F641A3D11BAFB65900AA196A /* Red-V-BlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F641A3E11BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-BlueUITests" */;
+			buildPhases = (
+				F641A3CE1BAFB65900AA196A /* Sources */,
+				F641A3CF1BAFB65900AA196A /* Frameworks */,
+				F641A3D01BAFB65900AA196A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F641A3D41BAFB65900AA196A /* PBXTargetDependency */,
+			);
+			name = "Red-V-BlueUITests";
+			productName = "Red-V-BlueUITests";
+			productReference = F641A3D21BAFB65900AA196A /* Red-V-BlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F641A3AB1BAFB65900AA196A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = davidkatz;
+				TargetAttributes = {
+					F641A3B21BAFB65900AA196A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F641A3C61BAFB65900AA196A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F641A3B21BAFB65900AA196A;
+					};
+					F641A3D11BAFB65900AA196A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = F641A3B21BAFB65900AA196A;
+					};
+				};
+			};
+			buildConfigurationList = F641A3AE1BAFB65900AA196A /* Build configuration list for PBXProject "Red-V-Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F641A3AA1BAFB65900AA196A;
+			productRefGroup = F641A3B41BAFB65900AA196A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F641A3B21BAFB65900AA196A /* Red-V-Blue */,
+				F641A3C61BAFB65900AA196A /* Red-V-BlueTests */,
+				F641A3D11BAFB65900AA196A /* Red-V-BlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F641A3B11BAFB65900AA196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641A3C11BAFB65900AA196A /* LaunchScreen.storyboard in Resources */,
+				F641A3BE1BAFB65900AA196A /* Assets.xcassets in Resources */,
+				F641A3BC1BAFB65900AA196A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3C51BAFB65900AA196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3D01BAFB65900AA196A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F641A3AF1BAFB65900AA196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641A3B91BAFB65900AA196A /* ViewController.swift in Sources */,
+				F641A3B71BAFB65900AA196A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3C31BAFB65900AA196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641A3CC1BAFB65900AA196A /* Red_V_BlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F641A3CE1BAFB65900AA196A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F641A3D71BAFB65900AA196A /* Red_V_BlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F641A3C91BAFB65900AA196A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F641A3B21BAFB65900AA196A /* Red-V-Blue */;
+			targetProxy = F641A3C81BAFB65900AA196A /* PBXContainerItemProxy */;
+		};
+		F641A3D41BAFB65900AA196A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F641A3B21BAFB65900AA196A /* Red-V-Blue */;
+			targetProxy = F641A3D31BAFB65900AA196A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F641A3BA1BAFB65900AA196A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F641A3BB1BAFB65900AA196A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F641A3BF1BAFB65900AA196A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F641A3C01BAFB65900AA196A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F641A3D91BAFB65900AA196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F641A3DA1BAFB65900AA196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F641A3DC1BAFB65900AA196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red-V-Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F641A3DD1BAFB65900AA196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red-V-Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F641A3DF1BAFB65900AA196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Red-V-BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red-V-Blue.app/Red-V-Blue";
+			};
+			name = Debug;
+		};
+		F641A3E01BAFB65900AA196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Red-V-BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red-V-Blue.app/Red-V-Blue";
+			};
+			name = Release;
+		};
+		F641A3E21BAFB65900AA196A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Red-V-BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Red-V-Blue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F641A3E31BAFB65900AA196A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Red-V-BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "davidkatz.Red-V-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Red-V-Blue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F641A3AE1BAFB65900AA196A /* Build configuration list for PBXProject "Red-V-Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641A3D91BAFB65900AA196A /* Debug */,
+				F641A3DA1BAFB65900AA196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F641A3DB1BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641A3DC1BAFB65900AA196A /* Debug */,
+				F641A3DD1BAFB65900AA196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F641A3DE1BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641A3DF1BAFB65900AA196A /* Debug */,
+				F641A3E01BAFB65900AA196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F641A3E11BAFB65900AA196A /* Build configuration list for PBXNativeTarget "Red-V-BlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F641A3E21BAFB65900AA196A /* Debug */,
+				F641A3E31BAFB65900AA196A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F641A3AB1BAFB65900AA196A /* Project object */;
+}
